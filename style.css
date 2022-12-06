@@ -1,0 +1,29 @@
+body {
+    background-color:rgb(255, 255, 255);
+}
+
+.item p{ 
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+.grid {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.item {
+    position:relative;
+}
